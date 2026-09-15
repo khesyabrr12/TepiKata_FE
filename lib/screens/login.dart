@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
 
                 const Text(
-                  'Temukan cerita dan kata-kata yang bermakna.',
+                  'Temukan cerita dan kata-kata yang bermakna dalam setiap kata.',
                   style: TextStyle(
                     color: Color(0xFF6B6258),
                     fontSize: 15,
