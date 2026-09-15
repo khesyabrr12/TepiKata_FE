@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ProfilePage extends StatelessWidget {
   final String userName;
 
-  const ProfilePage({super.key, this.userName = 'Khesya'});
+  const ProfilePage({super.key, this.userName = 'Almira'});
 
   @override
   Widget build(BuildContext context) {
@@ -72,9 +72,6 @@ class ProfilePage extends StatelessWidget {
 
               const SizedBox(height: 24),
 
-              // =========================
-              // EDIT PROFILE
-              // =========================
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -112,9 +109,6 @@ class ProfilePage extends StatelessWidget {
 
               const SizedBox(height: 12),
 
-              // =========================
-              // LOGOUT
-              // =========================
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton.icon(
