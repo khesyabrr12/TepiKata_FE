@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 14),
 
               const Text(
-                'Selamat pagi, Khesya.',
+                'Selamat pagi, Almira.',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
