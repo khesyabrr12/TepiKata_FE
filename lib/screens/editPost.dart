@@ -96,7 +96,7 @@ class _MyEditPostState extends State<MyEditPost> {
   Future<void> updatePost() async {
     if (selectedCategoryId == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Kategori artikel wajib dipilih')),
+        const SnackBar(content: Text('Kategori artikel wajib di isi')),
       );
       return;
     }
@@ -183,7 +183,6 @@ class _MyEditPostState extends State<MyEditPost> {
 
           const SizedBox(height: 22),
 
-          // JUDUL
           TextField(
             controller: titleController,
             decoration: _fieldDecoration(labelText: 'Judul Artikel'),
@@ -191,7 +190,6 @@ class _MyEditPostState extends State<MyEditPost> {
 
           const SizedBox(height: 16),
 
-          // ISI ARTIKEL
           TextField(
             controller: textController,
             maxLines: 5,

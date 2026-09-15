@@ -218,7 +218,7 @@ class _AddArticelPageState extends State<AddArticelPage> {
           const SizedBox(height: 6),
 
           const Text(
-            'Tulis sesuatu yang ingin kamu bagikan kepada pembaca TepiKata.',
+            'Tulis sesuatu yang ingin kamu bagikan kepada pembaca.',
             style: TextStyle(fontSize: 14, color: Colors.black54),
           ),
 

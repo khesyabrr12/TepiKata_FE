@@ -117,7 +117,7 @@ class _DetailPostState extends State<DetailPost> {
                 const SizedBox(width: 5),
 
                 const Text(
-                  '14 Mei',
+                  '5 Desember',
                   style: TextStyle(fontSize: 12, color: Colors.grey),
                 ),
                 const SizedBox(width: 8),
