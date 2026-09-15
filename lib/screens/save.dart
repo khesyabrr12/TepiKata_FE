@@ -76,7 +76,7 @@ class _SavedPageState extends State<SavedPage> {
                     SizedBox(height: 14),
 
                     Text(
-                      'Belum ada tulisan tersimpan',
+                      'Kamu belum menyimpan tulisan',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,

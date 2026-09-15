@@ -2,9 +2,7 @@ import 'package:flutter/foundation.dart';
 
 class SavedPosts extends ChangeNotifier {
   SavedPosts._();
-
   static final SavedPosts instance = SavedPosts._();
-
   final List<Map<String, dynamic>> _posts = [];
 
   List<Map<String, dynamic>> get posts => List.unmodifiable(_posts);
