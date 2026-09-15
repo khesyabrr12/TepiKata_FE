@@ -106,7 +106,7 @@ class _CategoriesPageState extends State<CategoriesPage> {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Hapus kategori?'),
+        title: const Text('Yakin Hapus kategori?'),
         content: Text('Kategori "$name" akan dihapus.'),
         actions: [
           TextButton(
